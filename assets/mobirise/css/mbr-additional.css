@@ -998,6 +998,9 @@ section.lazy-placeholder:after {
 .cid-RwcyYojjMQ .hide {
   visibility: hidden;
 }
+.cid-RwcyYojjMQ video {
+  visibility: hidden;
+}
 .cid-RwcyYojjMQ .overlay {
   background: #000000;
   opacity: 0;
