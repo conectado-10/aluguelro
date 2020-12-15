@@ -321,7 +321,7 @@
         {
           "_params": {
             "modalName": "video",
-            "modalSize": "medium",
+            "modalSize": "small",
             "modalHeader": true,
             "modalTitle": "Quem ama Protege",
             "modalBody": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ITKzXGS6t6o\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
@@ -336,9 +336,9 @@
             "modalVerticalCenter": false,
             "modalFade": true,
             "modalAutoOpen": true,
-            "modalAutoOpenOnce": true,
+            "modalAutoOpenOnce": false,
             "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": "1"
+            "modalAutoOpenDelay": "0"
           },
           "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#video\">Preview video</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#video-howtouse\">How to use video</a>\n</div>\n<div class=\"modal fade\" id=\"video-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"video-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"video-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('video')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
           "modalBody": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ITKzXGS6t6o\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
@@ -348,7 +348,7 @@
           ],
           "_name": "witsec-modal-window-block",
           "_anchor": "witsec-modal-window-block-v",
-          "modalWindow": "<div class=\"modal fade\" id=\"video\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"videoLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"videoLabel\">Quem ama Protege</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"video_body\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ITKzXGS6t6o\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#video\").on(\"hidden.bs.modal\", function () {    var html = $( \"#video_body\" ).html();    $( \"#video_body\" ).empty();    $( \"#video_body\" ).append(html);  })});</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"video\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"videoLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-sm \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"videoLabel\">Quem ama Protege</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"video_body\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ITKzXGS6t6o\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#video\").on(\"hidden.bs.modal\", function () {    var html = $( \"#video_body\" ).html();    $( \"#video_body\" ).empty();    $( \"#video_body\" ).append(html);  })});</script>"
         },
         {
           "_name": "divider19",
