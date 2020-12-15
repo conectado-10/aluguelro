@@ -321,8 +321,8 @@
         {
           "_params": {
             "modalName": "video",
-            "modalSize": "small",
-            "modalHeader": true,
+            "modalSize": "medium",
+            "modalHeader": false,
             "modalTitle": "Quem ama Protege",
             "modalBody": "<iframe width=\"300\" height=\"315\" src=\"https://www.youtube.com/embed/ITKzXGS6t6o\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
             "modalBodyHTML": true,
@@ -348,7 +348,7 @@
           ],
           "_name": "witsec-modal-window-block",
           "_anchor": "witsec-modal-window-block-v",
-          "modalWindow": "<div class=\"modal fade\" id=\"video\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"videoLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog modal-sm \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"videoLabel\">Quem ama Protege</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"video_body\"><iframe width=\"300\" height=\"315\" src=\"https://www.youtube.com/embed/ITKzXGS6t6o\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#video\").on(\"hidden.bs.modal\", function () {    var html = $( \"#video_body\" ).html();    $( \"#video_body\" ).empty();    $( \"#video_body\" ).append(html);  })});</script>"
+          "modalWindow": "<div class=\"modal fade\" id=\"video\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"videoLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-body\" id=\"video_body\"><iframe width=\"300\" height=\"315\" src=\"https://www.youtube.com/embed/ITKzXGS6t6o\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#video\").on(\"hidden.bs.modal\", function () {    var html = $( \"#video_body\" ).html();    $( \"#video_body\" ).empty();    $( \"#video_body\" ).append(html);  })});</script>"
         },
         {
           "_name": "divider19",
