@@ -40,7 +40,7 @@
         "url": "https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "uniqCompNum": 35,
+    "uniqCompNum": 36,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
     "imageResize": true,
@@ -319,36 +319,27 @@
           "_params": {}
         },
         {
-          "_params": {
-            "modalName": "video",
-            "modalSize": "medium",
-            "modalHeader": true,
-            "modalTitle": "Quem ama Protege",
-            "modalBody": "<iframe width=\"315\" height=\"315\" src=\"https://www.youtube.com/embed/ITKzXGS6t6o\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-            "modalBodyHTML": true,
-            "modalFooter": false,
-            "modalCloseBtn": false,
-            "modalCloseText": "Close",
-            "modalLink": false,
-            "modalLinkUrl": "https://mobirise.com/",
-            "modalLinkText": "Visit Mobirise",
-            "modalLinkNewWindow": true,
-            "modalVerticalCenter": false,
-            "modalFade": true,
-            "modalAutoOpen": true,
-            "modalAutoOpenOnce": false,
-            "modalAutoOpenGDPR": true,
-            "modalAutoOpenDelay": 0
+          "alias": "deltapi-code-editor",
+          "_isSecondary": true,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-section": {
+              "text-align": "center",
+              "color": "#fff"
+            }
           },
-          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#video\">Preview video</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#video-howtouse\">How to use video</a>\n</div>\n<div class=\"modal fade\" id=\"video-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"video-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"video-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('video')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
-          "modalBody": "<iframe width=\"315\" height=\"315\" src=\"https://www.youtube.com/embed/ITKzXGS6t6o\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
-          "alias": "witsec-modal-window",
-          "_tags": [
-            "Extension"
-          ],
-          "_name": "witsec-modal-window-block",
-          "_anchor": "witsec-modal-window-block-w",
-          "modalWindow": "<div class=\"modal fade\" id=\"video\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"videoLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"videoLabel\">Quem ama Protege</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"video_body\"><iframe width=\"315\" height=\"315\" src=\"https://www.youtube.com/embed/ITKzXGS6t6o\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#video\").on(\"hidden.bs.modal\", function () {    var html = $( \"#video_body\" ).html();    $( \"#video_body\" ).empty();    $( \"#video_body\" ).append(html);  })});</script>"
+          "_name": "custom-html",
+          "_customHTML": "<div class=\"card promoting-card\"> <div class=\"card-body d-flex flex-row\"> <a href=\"mailto:presenteperfeitolz@gmail.com\"><img src=\"@PROJECT_PATH@/assets/images/iconfinder-send-4341325.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a> <div> <h4 class=\"card-title font-weight-bold mb-2\">Envie um Email</h4> <p class=\"card-text\"><a href=\"mailto:smaria@sinaf.com\">Click Aqui para enviar</a></p></div></div></div><div class=\"card promoting-card\"> <div class=\"card-body d-flex flex-row\"> <a href=\"https://www.instagram.com/presenteperfeito_rj/?hl=pt-br\"><img src=\"@PROJECT_PATH@/assets/images/disk-sade-2-50x50.png\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a> <div> <h4 class=\"card-title font-weight-bold mb-2\">Sonia Maria</h4> <p class=\"card-text\"><a href=\"https://www.instagram.com/soniaferreiradealcantara/?hl=pt-br\">Acesse meu Instagran</a></p></div></div></div><div class=\"card promoting-card\"> <div class=\"card-body d-flex flex-row\"> <a href=\"tel:22 99972-7713\"><img src=\"@PROJECT_PATH@/assets/images/tumblr-m9t31sx4er1qgcra2o1-500.gif\" class=\"rounded-circle mr-3\" height=\"50px\" width=\"50px\" alt=\"avatar\" title></a> <div> <h4 class=\"card-title font-weight-bold mb-2\">Emergencia...</h4> <p class=\"card-text\"><a href=\"https://api.whatsapp.com/send?phone=5521981940267&text=Sinaf%20-%20Or%C3%A7amento%20plano%20funeral%20(Grupo%20Conectado)\">Clik Aqui....</a></p></div></div></div>",
+          "_anchor": "custom-html-z",
+          "_isUserblock": true,
+          "_sourceTheme": "creativem4",
+          "_cid": "sjf8tpbL7G",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         },
         {
           "alias": false,
@@ -389,6 +380,38 @@
           "_once": false,
           "_params": {},
           "_anchor": "image3-y"
+        },
+        {
+          "_params": {
+            "modalName": "video",
+            "modalSize": "medium",
+            "modalHeader": true,
+            "modalTitle": "Quem ama Protege",
+            "modalBody": "<iframe width=\"315\" height=\"315\" src=\"https://www.youtube.com/embed/ITKzXGS6t6o\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+            "modalBodyHTML": true,
+            "modalFooter": false,
+            "modalCloseBtn": false,
+            "modalCloseText": "Close",
+            "modalLink": false,
+            "modalLinkUrl": "https://mobirise.com/",
+            "modalLinkText": "Visit Mobirise",
+            "modalLinkNewWindow": true,
+            "modalVerticalCenter": false,
+            "modalFade": true,
+            "modalAutoOpen": true,
+            "modalAutoOpenOnce": false,
+            "modalAutoOpenGDPR": true,
+            "modalAutoOpenDelay": 0
+          },
+          "modalTest": "<div class=\"mbr-section-btn\">\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#video\">Preview video</a>\n  <a href=\"#\" class=\"btn btn-primary display-4\" data-toggle=\"modal\" data-target=\"#video-howtouse\">How to use video</a>\n</div>\n<div class=\"modal fade\" id=\"video-howtouse\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"video-howtouseLabel\" aria-hidden=\"true\">\n  <div class=\"modal-dialog\" role=\"document\" style=\"height:auto\">\n    <div class=\"modal-content\">\n      <div class=\"modal-header\">\n        <h5 class=\"modal-title\" id=\"video-howtouseLabel\">How to use?</h5>\n        <a href=\"\" class=\"close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a>\n      </div>\n      <div class=\"modal-body\">\n        Using your new modal is very easy. Simply create a new link, then click the \"...\" tab and enter the following as custom URL:<br /><br />\n        <code>javascript:OpenModal('video')</code>\n      </div>\n      <div class=\"modal-footer\">\n        <div class=\"mbr-section-btn\"><a href=\"#\" class=\"btn btn-secondary display-4\" data-dismiss=\"modal\">Close</a></div>\n      </div>\n    </div>\n  </div>\n</div>",
+          "modalBody": "<iframe width=\"315\" height=\"315\" src=\"https://www.youtube.com/embed/ITKzXGS6t6o\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+          "alias": "witsec-modal-window",
+          "_tags": [
+            "Extension"
+          ],
+          "_name": "witsec-modal-window-block",
+          "_anchor": "witsec-modal-window-block-w",
+          "modalWindow": "<div class=\"modal fade\" id=\"video\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"videoLabel\" aria-hidden=\"true\">  <div class=\"modal-dialog  \" style=\"height:auto\" role=\"document\">    <div class=\"modal-content\"><div class=\"modal-header\">  <h5 class=\"no-anim modal-title\" id=\"videoLabel\">Quem ama Protege</h5>  <a href=\"#\" class=\"no-anim close\" data-dismiss=\"modal\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></a></div><div class=\"modal-body\" id=\"video_body\"><iframe width=\"315\" height=\"315\" src=\"https://www.youtube.com/embed/ITKzXGS6t6o\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>    </div>  </div></div><script>document.addEventListener(\"DOMContentLoaded\", function() {  $(\"#video\").on(\"hidden.bs.modal\", function () {    var html = $( \"#video_body\" ).html();    $( \"#video_body\" ).empty();    $( \"#video_body\" ).append(html);  })});</script>"
         }
       ]
     },
